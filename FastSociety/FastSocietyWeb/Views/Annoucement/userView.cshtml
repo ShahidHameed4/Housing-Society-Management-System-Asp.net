@@ -1,0 +1,111 @@
+﻿
+@model IEnumerable<Annoucement>
+@{ Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <title>
+
+  </title>
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+  <!-- Nucleo Icons -->
+  <link href="nucleo-icons.css" rel="stylesheet" />
+  <link href="nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <!-- CSS Files -->
+  <!-- Custom CSS -->
+    <link href="../assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <!-- Custom CSS -->
+  <link rel="stylesheet" href="~/css/adminstyle.css">
+  <link rel="stylesheet" href="~/css/dashboardstyle.css" />
+
+
+</head>
+<body>
+
+	<div class="wrapper d-flex align-items-stretch">
+			
+                <nav id="sidebar" style="background-color:#21618C">
+					<div class="p-4 pt-5" >
+                    <ul id="sidebarnav">
+						 <li class="text-center p-40 upgrade-btn">
+                            <a asp-action="Index" asp-controller="Home"
+                                class="btn d-block w-100 btn-danger text-white" >Home</a>
+                        </li>
+
+                        <li class="sidebar-item"> <a asp-action="Index" asp-controller="Complaint" class="sidebar-link waves-effect waves-dark sidebar-link"
+                                aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span
+                                    class="hide-menu">Make Complaint</span></a></li>
+                        <li class="sidebar-item" > <a asp-action="Index2" asp-controller="Annoucement" class="sidebar-link waves-effect waves-dark sidebar-link"
+                                aria-expanded="false"><i
+                                    class="mdi mdi-account-network"></i><span class="hide-menu">View Annoucements</span></a></li>
+                       
+                        
+                       
+                    </ul>
+					</div>
+
+                </nav>
+                <!-- End Sidebar navigation -->
+  <!-- Page Content  -->
+      
+
+
+		<div id="content" class="p-4 p-md-5">
+			<div class="contianer" p-3">
+				<div class=" row pt-4">
+					<div class=" col -6">
+						<h2 class="mb-4">Annoucements List</h2>
+					</div>
+					<div class=" text-end p-4">
+						
+					</div>
+				</div>
+			</div>
+			<br /><br />
+        
+			<table class="table table-bordered table-striped table" style="width:100%">
+				<thead>
+					<tr>
+						<th>
+				Annoucements
+			</th>
+			</thead>
+			
+			<tbody>
+
+				@foreach(var obj in Model)
+		{
+			<tr>
+				<td width=100%>
+					@obj.Annouce
+				</td>
+				
+				
+			</tr>
+		}
+
+				</tbody>
+			</table>
+
+      </div>
+
+		</div> 
+
+<script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

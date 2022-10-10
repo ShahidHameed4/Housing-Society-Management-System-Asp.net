@@ -1,0 +1,31 @@
+﻿@model Employee
+
+<form method="post">
+	<input asp-for="Emp_ID" hidden />
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Delete Employee</h2>
+			<hr />
+		</div>
+		@*<div asp-validation-summary="All"></div>*@
+		<div class="mb-3">
+			<label asp-for="Emp_Name"></label>
+			<input asp-for="Emp_Name" disabled class="form-control" />
+			
+		</div>
+		<div class="mb-3">
+			<label asp-for="Emp_Salary"></label>
+			<input asp-for="Emp_Salary" disabled class="form-control" />
+			
+		</div>
+		<button type="submit" class="btn btn-danger" style="width:150px">Delete</button>
+		<a asp-controller="Employee" asp-action="Index" class="btn btn-secondary" style="width:150px">
+			Back to List
+		</a>
+	</div>
+</form>
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}

@@ -1,0 +1,50 @@
+﻿@model AllocateHouse
+
+<form method="post">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Add House</h2>
+			<hr />
+		</div>
+		@*<div asp-validation-summary="All"></div>*@
+		<div class="mb-3">
+			<label asp-for="House_Number"></label>
+			<input asp-for="House_Number" class="form-control" />
+			<span asp-validation-for="House_Number" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Name"></label>
+			<input asp-for="Name" class="form-control" />
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Mobile"></label>
+			<input asp-for="Mobile" class="form-control" />
+			<span asp-validation-for="Mobile" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Email"></label>
+			<input asp-for="Email" class="form-control" />
+			<span asp-validation-for="Email" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="BirthDate"></label>
+			<input asp-for="BirthDate" class="form-control" />
+			<span asp-validation-for="BirthDate" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="password"></label>
+			<input asp-for="password" class="form-control" />
+			<span asp-validation-for="password" class="text-danger"></span>
+		</div>
+		<button type="submit" class="btn btn-primary" style="width:150px">Allocate</button>
+		<a asp-controller="AllocateHouse" asp-action="Index" class="btn btn-secondary" style="width:150px">
+			Back to List
+		</a>
+	</div>
+</form>
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}

@@ -1,0 +1,41 @@
+﻿@model House
+
+<form method="post">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Allocate House</h2>
+			<hr />
+		</div>
+		@*<div asp-validation-summary="All"></div>*@
+		<div class="mb-3">
+			<label asp-for="houseNo"></label>
+			<input asp-for="houseNo" class="form-control" />
+			<span asp-validation-for="houseNo" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="type"></label>
+			<input asp-for="type" class="form-control" />
+			<span asp-validation-for="type" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Description"></label>
+			<input asp-for="Description" class="form-control" />
+			<span asp-validation-for="Description" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Block"></label>
+			<input asp-for="Block" class="form-control" />
+			<span asp-validation-for="Block" class="text-danger"></span>
+		</div>
+		
+		<button type="submit" class="btn btn-primary" style="width:150px">Allocate</button>
+		<a asp-controller="Houses" asp-action="Index" class="btn btn-secondary" style="width:150px">
+			Back to List
+		</a>
+	</div>
+</form>
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}

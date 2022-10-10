@@ -1,0 +1,42 @@
+﻿@model House
+
+<form method="post">
+	<input asp-for="houseNo" hidden />
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Delete House Record</h2>
+			<hr />
+		</div>
+		@*<div asp-validation-summary="All"></div>*@
+		<div class="mb-3">
+			<label asp-for="houseNo"></label>
+			<input asp-for="houseNo" disabled class="form-control" />
+			
+		</div>
+		<div class="mb-3">
+			<label asp-for="Block"></label>
+			<input asp-for="Block" disabled class="form-control" />
+			
+		</div>
+		<div class="mb-3">
+			<label asp-for="type"></label>
+			<input asp-for="type" disabled class="form-control" />
+			
+		</div>
+		<div class="mb-3">
+			<label asp-for="Description"></label>
+			<input asp-for="Description" disabled class="form-control" />
+			
+		</div>
+		
+		<button type="submit" class="btn btn-danger" style="width:150px">Delete</button>
+		<a asp-controller="Houses" asp-action="Index" class="btn btn-secondary" style="width:150px">
+			Back to List
+		</a>
+	</div>
+</form>
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}

@@ -1,0 +1,148 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FastSocietyWeb
+build_property.RootNamespace = FastSocietyWeb
+build_property.ProjectDir = C:\Users\DDD\Downloads\20i-1832_20i-0870_20i-0980_SE-P DB Project\DB\FastSociety\FastSocietyWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\DDD\Downloads\20i-1832_20i-0870_20i-0980_SE-P DB Project\DB\FastSociety\FastSocietyWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/AllocateHouse/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsb2NhdGVIb3VzZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/AllocateHouse/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsb2NhdGVIb3VzZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/AllocateHouse/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsb2NhdGVIb3VzZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/AllocateHouse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsb2NhdGVIb3VzZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Annoucement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VjZW1lbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Annoucement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VjZW1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Annoucement/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VjZW1lbnRcSW5kZXgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Annoucement/userView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VjZW1lbnRcdXNlclZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Complaint/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Complaint/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Complaint/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50XEluZGV4Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Employee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Home/loginBtn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbkJ0bi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Houses/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXGNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Houses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Houses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Houses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Member/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Member/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Member/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Member/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DDD/Downloads/20i-1832_20i-0870_20i-0980_SE-P DB Project/DB/FastSociety/FastSocietyWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0q5pfh4sa8
